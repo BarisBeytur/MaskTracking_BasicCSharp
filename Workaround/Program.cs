@@ -9,9 +9,9 @@ class Program
     {
         Person person1 = new Person();
         person1.NationalId = 12345678910;
-        person1.FirstName = "ALİ İHSAN ÖZKAYA";
-        person1.LastName = "ÖZKAYA";
-        person1.DateOfBirthYear = 2000;
+        person1.FirstName = "BARIŞ";
+        person1.LastName = "BEYTUR";
+        person1.DateOfBirthYear = 2002;
 
         PttManager pttManager = new PttManager(new PersonManager());
         pttManager.GiveMask(person1);
